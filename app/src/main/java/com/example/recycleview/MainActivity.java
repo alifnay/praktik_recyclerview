@@ -107,10 +107,10 @@ public class MainActivity extends AppCompatActivity {
         chem.chapters.add(chapter8);
         chem.chapters.add(chapter9);
 
-        Subject bio = new Subject();
-        bio.id = 3;
-        bio.subjectName = "Biology";
-        bio.chapters = new ArrayList<Chapter>();
+        Subject ml = new Subject();
+        ml.id = 3;
+        ml.subjectName = "Machine Learning";
+        ml.chapters = new ArrayList<Chapter>();
 
         Chapter chapter10 = new Chapter();
         chapter10.id = 10;
@@ -132,10 +132,10 @@ public class MainActivity extends AppCompatActivity {
         chapter13.chapterName = "Protein and fibers";
         chapter13.imageUrl = "drawable/path/protein.png";
 
-        bio.chapters.add(chapter10);
-        bio.chapters.add(chapter11);
-        bio.chapters.add(chapter12);
-        bio.chapters.add(chapter13);
+        ml.chapters.add(chapter10);
+        ml.chapters.add(chapter11);
+        ml.chapters.add(chapter12);
+        ml.chapters.add(chapter13);
 
         Subject maths = new Subject();
         maths.id = 4;
@@ -212,7 +212,7 @@ public class MainActivity extends AppCompatActivity {
 
         subjects.add(physics);
         subjects.add(chem);
-        subjects.add(bio);
+        subjects.add(ml);
         subjects.add(maths);
 
         return subjects;
