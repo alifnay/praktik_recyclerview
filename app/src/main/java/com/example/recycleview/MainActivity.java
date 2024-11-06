@@ -174,10 +174,10 @@ public class MainActivity extends AppCompatActivity {
         maths.chapters.add(chapter17);
 
 
-        Subject dzul = new Subject();
-        dzul.id = 4;
-        dzul.subjectName = "Maths";
-        dzul.chapters = new ArrayList<Chapter>();
+        Subject DevOps = new Subject();
+        DevOps.id = 5;
+        DevOps.subjectName = "DevOps";
+        DevOps.chapters = new ArrayList<Chapter>();
 
         Chapter chapter19 = new Chapter();
         chapter19.id = 19;
@@ -204,16 +204,17 @@ public class MainActivity extends AppCompatActivity {
         chapter23.chapterName = "Trigonometry";
         chapter23.imageUrl = "drawable/path";
 
-        maths.chapters.add(chapter19);
-        maths.chapters.add(chapter20);
-        maths.chapters.add(chapter21);
-        maths.chapters.add(chapter22);
-        maths.chapters.add(chapter23);
+        DevOps.chapters.add(chapter19);
+        DevOps.chapters.add(chapter20);
+        DevOps.chapters.add(chapter21);
+        DevOps.chapters.add(chapter22);
+        DevOps.chapters.add(chapter23);
 
         subjects.add(physics);
         subjects.add(chem);
         subjects.add(bio);
         subjects.add(maths);
+        subjects.add(DevOps);
 
         return subjects;
     }
