@@ -41,45 +41,45 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<Subject> prepareData() {
         ArrayList<Subject> subjects = new ArrayList<Subject>();
 
-        Subject physics = new Subject();
-        physics.id = 1;
-        physics.subjectName = "Physics";
-        physics.chapters = new ArrayList<Chapter>();
+        Subject website = new Subject();
+        website.id = 1;
+        website.subjectName = "Website Development";
+        website.chapters = new ArrayList<Chapter>();
 
         Chapter chapter1 = new Chapter();
         chapter1.id = 1;
-        chapter1.chapterName = "Atomic power";
-        chapter1.imageUrl = "drawable/path/atoms.png";
+        chapter1.chapterName = "Introduction to HTML";
+        chapter1.imageUrl = "drawable/html.png";
 
         Chapter chapter2 = new Chapter();
         chapter2.id = 2;
-        chapter2.chapterName = "Theory of relativity";
+        chapter2.chapterName = "CSS Basics";
         chapter2.imageUrl = "drawable/path/sigma.png";
 
         Chapter chapter3 = new Chapter();
         chapter3.id = 3;
-        chapter3.chapterName = "Magnetic field";
+        chapter3.chapterName = "JavaScript Fundamentals";
         chapter3.imageUrl = "drawable/path/magnet.png";
 
         Chapter chapter4 = new Chapter();
         chapter4.id = 4;
-        chapter4.chapterName = "Practical 1";
+        chapter4.chapterName = "Responsive Design";
         chapter4.imageUrl = "drawable/path/caliper.png";
 
         Chapter chapter5 = new Chapter();
         chapter5.id = 5;
-        chapter5.chapterName = "Practical 2";
+        chapter5.chapterName = "Introduction to Web Hosting";
         chapter5.imageUrl = "drawable/path/micrometer.png";
 
-        physics.chapters.add(chapter1);
-        physics.chapters.add(chapter2);
-        physics.chapters.add(chapter3);
-        physics.chapters.add(chapter4);
-        physics.chapters.add(chapter5);
+        website.chapters.add(chapter1);
+        website.chapters.add(chapter2);
+        website.chapters.add(chapter3);
+        website.chapters.add(chapter4);
+        website.chapters.add(chapter5);
 
         Subject chem = new Subject();
         chem.id = 2;
-        chem.subjectName = "Chemistry";
+        chem.subjectName = "Mobile Development";
         chem.chapters = new ArrayList<Chapter>();
 
         Chapter chapter6 = new Chapter();
@@ -175,8 +175,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         Subject dzul = new Subject();
-        dzul.id = 4;
-        dzul.subjectName = "Maths";
+        dzul.id = 5;
+        dzul.subjectName = "Dzul";
         dzul.chapters = new ArrayList<Chapter>();
 
         Chapter chapter19 = new Chapter();
@@ -204,16 +204,17 @@ public class MainActivity extends AppCompatActivity {
         chapter23.chapterName = "Trigonometry";
         chapter23.imageUrl = "drawable/path";
 
-        maths.chapters.add(chapter19);
-        maths.chapters.add(chapter20);
-        maths.chapters.add(chapter21);
-        maths.chapters.add(chapter22);
-        maths.chapters.add(chapter23);
+        dzul.chapters.add(chapter19);
+        dzul.chapters.add(chapter20);
+        dzul.chapters.add(chapter21);
+        dzul.chapters.add(chapter22);
+        dzul.chapters.add(chapter23);
 
-        subjects.add(physics);
+        subjects.add(website);
         subjects.add(chem);
         subjects.add(bio);
         subjects.add(maths);
+        subjects.add(dzul);
 
         return subjects;
     }
