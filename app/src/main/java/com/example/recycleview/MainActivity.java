@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         Chapter chapter1 = new Chapter();
         chapter1.id = 1;
         chapter1.chapterName = "Introduction to HTML";
-        chapter1.imageUrl = "drawable/path/atoms.png";
+        chapter1.imageUrl = "res/drawable/html.png";
 
         Chapter chapter2 = new Chapter();
         chapter2.id = 2;
