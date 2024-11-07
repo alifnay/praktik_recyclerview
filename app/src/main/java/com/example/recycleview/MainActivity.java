@@ -49,27 +49,27 @@ public class MainActivity extends AppCompatActivity {
         Chapter chapter1 = new Chapter();
         chapter1.id = 1;
         chapter1.chapterName = "Introduction to HTML";
-        chapter1.imageUrl = "https://e7.pngegg.com/pngimages/780/934/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png";
+        chapter1.imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png";
 
         Chapter chapter2 = new Chapter();
         chapter2.id = 2;
         chapter2.chapterName = "CSS Basics";
-        chapter2.imageUrl = "drawable/path/css.png";
+        chapter2.imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/640px-CSS3_logo_and_wordmark.svg.png";
 
         Chapter chapter3 = new Chapter();
         chapter3.id = 3;
         chapter3.chapterName = "JavaScript Fundamentals";
-        chapter3.imageUrl = "drawable/path/javascript.png";
+        chapter3.imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHnJDLOcdm_0b6N6kNj-1OvO9KhKYgqIy0w&s";
 
         Chapter chapter4 = new Chapter();
         chapter4.id = 4;
         chapter4.chapterName = "Responsive Design";
-        chapter4.imageUrl = "drawable/path/responsive.png";
+        chapter4.imageUrl = "https://cdn-icons-png.flaticon.com/512/65/65381.png";
 
         Chapter chapter5 = new Chapter();
         chapter5.id = 5;
         chapter5.chapterName = "Introduction to Web Hosting";
-        chapter5.imageUrl = "drawable/path/hosting.png";
+        chapter5.imageUrl = "https://cdn-icons-png.flaticon.com/512/5139/5139874.png";
 
         website.chapters.add(chapter1);
         website.chapters.add(chapter2);
@@ -115,22 +115,22 @@ public class MainActivity extends AppCompatActivity {
         Chapter chapter10 = new Chapter();
         chapter10.id = 10;
         chapter10.chapterName = "Introduction to Data Analysis";
-        chapter10.imageUrl = "drawable/path/intro_data_analysis.png";
+        chapter10.imageUrl = "https://cdn-icons-png.freepik.com/256/6897/6897881.png?semt=ais_hybrid";
 
         Chapter chapter11 = new Chapter();
         chapter11.id = 11;
         chapter11.chapterName = "Data Collection Techniques";
-        chapter11.imageUrl = "drawable/path/data_collection.png";
+        chapter11.imageUrl = "https://cdn-icons-png.flaticon.com/512/3270/3270865.png";
 
         Chapter chapter12 = new Chapter();
         chapter12.id = 12;
         chapter12.chapterName = "Data Cleaning and Preprocessing";
-        chapter12.imageUrl = "drawable/path/data_cleaning.png";
+        chapter12.imageUrl = "https://cdn-icons-png.flaticon.com/512/5143/5143301.png";
 
         Chapter chapter13 = new Chapter();
         chapter13.id = 13;
         chapter13.chapterName = "Exploratory Data Analysis (EDA)";
-        chapter13.imageUrl = "drawable/path/eda.png";
+        chapter13.imageUrl = "https://cdn-icons-png.flaticon.com/512/8920/8920975.png";
 
         data.chapters.add(chapter10);
         data.chapters.add(chapter11);
@@ -145,27 +145,27 @@ public class MainActivity extends AppCompatActivity {
         Chapter chapter14 = new Chapter();
         chapter14.id = 14;
         chapter14.chapterName = "Introduction to Machine Learning";
-        chapter14.imageUrl = "drawable/path/intro_ml.png";
+        chapter14.imageUrl = "https://cdn-icons-png.flaticon.com/512/2980/2980560.png";
 
         Chapter chapter15 = new Chapter();
         chapter15.id = 15;
         chapter15.chapterName = "Supervised Learning";
-        chapter15.imageUrl = "drawable/path/supervised.png";
+        chapter15.imageUrl = "https://thumbs.dreamstime.com/b/supervised-ai-machine-learning-line-color-icon-artificial-intelligence-algorithm-technology-innovation-outline-vector-sign-315721335.jpg";
 
         Chapter chapter16 = new Chapter();
         chapter16.id = 16;
         chapter16.chapterName = "Unsupervised Learning";
-        chapter16.imageUrl = "drawable/path/unsupervised.png";
+        chapter16.imageUrl = "https://thumbs.dreamstime.com/b/machine-unsupervised-learning-thin-line-icon-ai-artificial-intelligence-algorithm-future-technology-data-analysis-computer-science-308423519.jpg";
 
         Chapter chapter17 = new Chapter();
         chapter17.id = 17;
         chapter17.chapterName = "Feature Engineering";
-        chapter17.imageUrl = "drawable/path/feature_engineering.png";
+        chapter17.imageUrl = "https://img.freepik.com/premium-vector/feature-engineering-icon-vector-image-can-be-used-data-science_120816-348650.jpg";
 
         Chapter chapter18 = new Chapter();
         chapter18.id = 18;
         chapter18.chapterName = "Model Evaluation and Metrics";
-        chapter18.imageUrl = "drawable/path/model_evaluation.png";
+        chapter18.imageUrl = "https://img.freepik.com/premium-vector/performance-metrics-icon-vector-image-can-be-used-action-plan_120816-355524.jpg";
 
         ml.chapters.add(chapter14);
         ml.chapters.add(chapter18);
