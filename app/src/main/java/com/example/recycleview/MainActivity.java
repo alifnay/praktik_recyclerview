@@ -181,27 +181,27 @@ public class MainActivity extends AppCompatActivity {
         Chapter chapter19 = new Chapter();
         chapter19.id = 19;
         chapter19.chapterName = "Introduction to DevOps";
-        chapter19.imageUrl = "drawable/path/intro_devops.png";
+        chapter19.imageUrl = "https://cdn-icons-png.flaticon.com/512/5396/5396960.png";
 
         Chapter chapter20 = new Chapter();
         chapter20.id = 20;
         chapter20.chapterName = "Continuous Integration (CI)";
-        chapter20.imageUrl = "drawable/path/ci.png";
+        chapter20.imageUrl = "https://cdn-icons-png.flaticon.com/512/10435/10435186.png";
 
         Chapter chapter21 = new Chapter();
         chapter21.id = 21;
         chapter21.chapterName = "Continuous Deployment (CD)";
-        chapter21.imageUrl = "drawable/path/cd.png";
+        chapter21.imageUrl = "https://cdn-icons-png.flaticon.com/512/8759/8759142.png";
 
         Chapter chapter22 = new Chapter();
         chapter22.id = 22;
         chapter22.chapterName = "Infrastructure as Code (IaC)";
-        chapter22.imageUrl = "drawable/path/iac.png";
+        chapter22.imageUrl = "https://cdn-icons-png.flaticon.com/512/11632/11632029.png";
 
         Chapter chapter23 = new Chapter();
         chapter23.id = 23;
         chapter23.chapterName = "Monitoring and Logging";
-        chapter23.imageUrl = "drawable/path/monitoring.png";
+        chapter23.imageUrl = "https://cdn-icons-png.flaticon.com/512/2942/2942789.png";
 
         devops.chapters.add(chapter19);
         devops.chapters.add(chapter20);
