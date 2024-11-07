@@ -85,22 +85,22 @@ public class MainActivity extends AppCompatActivity {
         Chapter chapter6 = new Chapter();
         chapter6.id = 6;
         chapter6.chapterName = "Introduction to Mobile Development";
-        chapter6.imageUrl = "drawable/path/intro.png";
+        chapter6.imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin_Icon.png/1200px-Kotlin_Icon.png";
 
         Chapter chapter7 = new Chapter();
         chapter7.id = 7;
         chapter7.chapterName = "Building User Interfaces";
-        chapter7.imageUrl = "drawable/path/ui.png";
+        chapter7.imageUrl = "https://cdn-icons-png.flaticon.com/512/6047/6047946.png";
 
         Chapter chapter8 = new Chapter();
         chapter8.id = 8;
         chapter8.chapterName = "Handling User Input";
-        chapter8.imageUrl = "drawable/path/input.png";
+        chapter8.imageUrl = "https://cdn-icons-png.flaticon.com/512/338/338106.png";
 
         Chapter chapter9 = new Chapter();
         chapter9.id = 9;
         chapter9.chapterName = "Data Storage and Persistence";
-        chapter9.imageUrl = "drawable/path/database.png";
+        chapter9.imageUrl = "https://cdn-icons-png.flaticon.com/512/2906/2906274.png";
 
         mobile.chapters.add(chapter6);
         mobile.chapters.add(chapter7);
